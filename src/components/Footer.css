@@ -1,0 +1,21 @@
+.footer-container {
+  height: 6rem;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+
+.icons {
+  order: 1px solid blue;
+  padding: 0;
+
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icons img {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 2rem;
+}

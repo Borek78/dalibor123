@@ -1,0 +1,15 @@
+.intro-container span {
+  display: none;
+}
+
+.intro-container .display-inline {
+  display: inline;
+}
+
+/* .intro-container span:first-child {
+  display: inline;
+}
+
+.intro-container span:nth-child(2) {
+  display: inline;
+} */

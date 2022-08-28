@@ -1,116 +1,57 @@
-.header-container .title {
-  order: 3px solid red;
-  justify-self: left;
+.header-container {
+  background-color: white;
+  height: 5rem;
+  width: 100%;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  font-family: futura;
+  color: #b7542d;
 }
-.header-container .header-ul {
+
+.header-content {
+  background-color: white;
   display: grid;
-  grid-template-columns: 1fr 16.5rem;
+  grid-template-columns: 10rem 1fr 10rem 6rem;
+  grid-template-rows: 5rem;
+  margin-inline: auto;
+  width: 60rem;
   padding-left: 4rem;
   padding-right: 4rem;
-  grid-template-rows: 8rem;
   align-items: center;
+  font-weight: bold;
 }
 
-button.back-to-products {
-  background-color: rgb(101, 159, 0);
-
-  border-radius: 2rem;
-  padding: 1rem;
-  cursor: pointer;
-  width: 17.5rem;
-  box-sizing: border-box;
-  font-size: 1.6rem;
-  color: white;
-
-  margin-top: 0px;
-  place-self: center;
-  font-size: 1.8rem;
+.header-content div div {
+  width: fit-content;
 }
 
-button.back-to-products:hover {
-  background-color: rgb(74, 117, 0);
-  color: white;
+.header-content .dalibor {
+  font-family: garamond;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 2px;
 }
 
-.header-container {
-  position: sticky;
-  box-shadow: 0rem 0rem 2rem 0rem rgb(255, 204, 76);
-  margin-bottom: 6rem;
-  height: 8rem;
-  place-items: center;
+/*Links*/
+.header-content .home {
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
 }
 
-.header-container .header-h2 {
-  font-family: monospace;
-  font-size: 4rem;
-  justify-self: left;
-  text-align: left;
+.header-content .journey {
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
 }
 
-.header-container ul {
-  padding-inline-start: 0;
+.header-content a {
+  text-decoration: none;
+  color: #b7542d;
 }
 
-@media only screen and (max-width: 800px) {
-  .header-container .header-ul {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 10rem 6rem;
-    justify-items: center;
-  }
-
-  .header-container .title {
-    justify-self: center;
-  }
-
-  .header-container {
-    height: 16rem;
-  }
-
-  .header-container li.li-button {
-    align-self: baseline;
-    order: 3px solid red;
-  }
+.hover-link a:hover {
+  color: orangered !important;
 }
 
-/* Barevný nápis*/
-
-@media only screen and (max-width: 558px) {
-  .header-container h2.header-h2 {
-    text-align: center;
-    align-self: center;
-    order: 1px solid blue;
-  }
-
-  .header-container {
-    height: 22rem;
-  }
-
-  .header-container.header-h2 {
-    text-align: center;
-    place-self: center;
-  }
-
-  .header-container .header-ul {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 16rem 6rem;
-    justify-items: center;
-    /* padding-left: 4rem;
-    padding-right: 4rem;
-    grid-template-rows: 8rem;
-    align-items: center; */
-  }
-
-  /* h2.header-h2 {
-    padding-right: 4rem;
-    padding-left: 4rem;
-  } */
-}
-
-@media only screen and (max-width: 450px) {
-  h2.header-h2 {
-    padding-right: 0rem;
-    padding-left: 0rem;
-  }
+.active-page {
+  border-bottom: 3px solid #b7542d !important;
 }
