@@ -1,6 +1,7 @@
-.header-container {
+/*bile pozadi*/
+.header-desktop-container {
   background-color: white;
-  height: 5rem;
+
   width: 100%;
   font-size: 1.6rem;
   box-sizing: border-box;
@@ -8,50 +9,56 @@
   color: #b7542d;
 }
 
-.header-content {
+.header-desktop-container .header-content {
   background-color: white;
   display: grid;
   grid-template-columns: 10rem 1fr 10rem 6rem;
   grid-template-rows: 5rem;
   margin-inline: auto;
-  width: 60rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  width: 52rem;
   align-items: center;
   font-weight: bold;
 }
 
-.header-content div div {
+.header-desktop-container .header-content div div {
   width: fit-content;
 }
 
-.header-content .dalibor {
+.header-desktop-container .header-content .dalibor {
   font-family: garamond;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 2rem;
   letter-spacing: 2px;
 }
 
 /*Links*/
-.header-content .home {
+.header-desktop-container .header-content .home {
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
 }
 
-.header-content .journey {
+.header-desktop-container .header-content .journey {
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
 }
 
-.header-content a {
+.header-desktop-container .header-content a {
   text-decoration: none;
   color: #b7542d;
+  font-family: futura;
+  font-size: 1.5rem;
 }
 
-.hover-link a:hover {
+.header-desktop-container .hover-link a:hover {
   color: orangered !important;
 }
 
-.active-page {
+.header-desktop-container .active-page {
   border-bottom: 3px solid #b7542d !important;
+}
+
+@media only screen and (max-width: 660px) {
+  .header-desktop-container {
+    display: none;
+  }
 }

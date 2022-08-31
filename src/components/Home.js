@@ -1,5 +1,6 @@
 import "./Home.css";
-import Header from "./Header";
+import HeaderDesktop from "./HeaderDesktop";
+import HeaderMobile from "./HeaderMobile";
 
 import Footer from "./Footer";
 import Button from "./Button";
@@ -10,7 +11,10 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="home-container">
-      <Header />
+      <HeaderDesktop />
+      <HeaderMobile />
+      <div className="horizontal"></div>
+
       <div className="home-content">
         <img src={Borek} alt="imgURL"></img>
         <p>

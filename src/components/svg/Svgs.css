@@ -1,3 +1,16 @@
+.x-svg {
+  margin-left: 0;
+  margin-right: 0;
+  justify-self: right;
+}
+
+.menu {
+  order: 1px solid blue;
+  margin-left: 0px;
+  margin-right: 0px;
+  justify-self: right;
+}
+
 .facebook:hover {
   transition: fill 0.5s;
 }
@@ -15,6 +28,7 @@ svg {
   margin-right: 2rem;
   height: 3rem;
   fill: #b7542d;
+  cursor: pointer;
 }
 
 svg:hover {

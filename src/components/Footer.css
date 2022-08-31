@@ -1,5 +1,6 @@
 .footer-container {
   height: 6rem;
+
   background-color: white;
   display: grid;
   place-items: center;
@@ -18,4 +19,10 @@
   margin-left: 2rem;
   margin-right: 2rem;
   height: 2rem;
+}
+
+@media only screen and (max-width: 660px) {
+  .footer-container {
+    background-color: #fff2f2;
+  }
 }

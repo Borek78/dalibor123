@@ -1,10 +1,8 @@
-import "./Header.css";
-import { useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
-import NavigationDesktop from "./NavigationDesktop";
-import NavigationMobile from "./NavigationMobile";
+import "./HeaderDesktop.css";
+import { useLocation, Link } from "react-router-dom";
+import { useEffect } from "react";
 
-const Header = () => {
+const HeaderDesktop = () => {
   const location = useLocation();
 
   //changing style on link
@@ -32,22 +30,26 @@ const Header = () => {
     }
   });
 
-  const width = window.innerWidth;
-  console.log(width);
-
   return (
-    <div className="header-container">
+    <div className="header-desktop-container">
       <div className="header-content">
         <div>
           <div className="dalibor">Dalibor´s</div>
         </div>
         <div> </div>
-
-        {width > 600 && <NavigationDesktop />}
-        {width <= 600 && <NavigationMobile />}
+        <div>
+          <div className="home">
+            <Link to="/">Home </Link>
+          </div>
+        </div>
+        <div>
+          <div className="journey">
+            <Link to="/Journey">Journey </Link>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Header;
+export default HeaderDesktop;
