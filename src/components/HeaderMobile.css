@@ -1,3 +1,37 @@
+/*main elements of the page*/
+.header-mobile-container {
+  height: 5rem;
+  display: grid;
+  grid-template-columns: 10rem 1fr 10rem;
+  align-items: center;
+  background-color: #fff2f2;
+  color: #b7542d;
+
+  width: 48rem;
+  margin-inline: auto;
+}
+
+.header-mobile-wrapper {
+  background-color: white;
+  background-color: #fff2f2;
+}
+
+.second,
+.third {
+  width: 48rem;
+  height: 5rem;
+  margin-inline: auto;
+
+  line-height: 5rem;
+  color: #b7542d;
+  font-weight: bold;
+}
+
+.first {
+  height: 3rem;
+}
+
+/*details*/
 .header-mobile-links a {
   text-decoration: none;
 }
@@ -18,20 +52,6 @@
 .third:hover {
   background-color: white;
   cursor: pointer;
-}
-
-.second,
-.third {
-  height: 5rem;
-  order: 1px solid green;
-  line-height: 5rem;
-  color: #b7542d;
-  font-weight: bold;
-  padding-left: 8rem;
-}
-
-.first {
-  height: 3rem;
 }
 
 /*box for mobile links*/
@@ -56,17 +76,6 @@
   height: fit-content;
 }
 
-.header-mobile-container {
-  height: 5rem;
-  display: grid;
-  grid-template-columns: 10rem 1fr 10rem;
-  padding-left: 8rem;
-  padding-right: 8rem;
-  align-items: center;
-  background-color: #fff2f2;
-  color: #b7542d;
-}
-
 .header-mobile-container .dalibor {
   font-family: garamond;
   font-weight: bold;
@@ -82,5 +91,21 @@
   }
   .header-mobile-links {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .header-mobile-container {
+    width: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .second,
+  .third {
+    width: auto;
+
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }

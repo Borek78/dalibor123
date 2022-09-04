@@ -48,7 +48,7 @@ const HeaderMobile = () => {
   });
 
   return (
-    <>
+    <div className="header-mobile-wrapper">
       <div className="header-mobile-container">
         <div className="dalibor">Dalibor´s</div>
         <div></div>
@@ -69,7 +69,7 @@ const HeaderMobile = () => {
           </div>
         </Link>
       </div>
-    </>
+    </div>
   );
 };
 

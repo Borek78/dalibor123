@@ -1,8 +1,51 @@
-.home-content a:hover {
+/*Main elements of the page*/
+.container {
+  font-size: 1.8rem;
+}
+
+.content p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+  color: rgb(48, 48, 48);
+}
+
+.content {
+  width: 60rem;
+  background-color: white;
+  border-radius: 40px;
+  margin-inline: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  order: 1px solid blue;
+
+  font-size: 1.6rem;
+  color: black;
+  line-height: 2.8rem;
+
+  font-family: helvetica;
+  text-align: justify;
+}
+
+.inner-content {
+  order: 1px solid green;
+  width: 48rem;
+  margin-inline: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/*Page details*/
+.content span.span-not-bold {
+  /* color: rgb(91, 91, 91); */
+  font-weight: normal;
+}
+
+.content a:hover {
   border-bottom: 3px dashed chocolate;
 }
 
-.home-content a {
+.content a {
   color: black;
   text-decoration: none;
   border-bottom: 2px dashed rgb(3, 171, 3);
@@ -23,7 +66,7 @@ div.about-me p {
   margin-bottom: 0.5rem;
 }
 
-.box {
+.content .box {
   width: 1rem;
   height: 1.8rem;
   background-color: orangered;
@@ -31,13 +74,12 @@ div.about-me p {
   margin-top: 6rem;
 }
 
-h2 {
+.content h2 {
   color: #b7542d;
   font-weight: bold;
   font-size: 1.8rem;
   text-transform: uppercase;
   margin-top: 4rem;
-  margin-bottom: 30rem;
 
   position: relative;
   left: 2rem;
@@ -47,19 +89,14 @@ h2 {
   width: 10rem;
 }
 
-.home-content p span {
+.content p span {
   color: #b7542d;
   font-weight: 600;
   font-size: 1.6rem;
 }
 
-.home-content p {
-  margin-bottom: 2rem;
-  color: rgb(48, 48, 48);
-}
-
-.home-content img {
-  width: 10rem;
+.content img {
+  width: 8rem;
   border-radius: 10px;
   float: right;
   margin-left: 3rem;
@@ -67,32 +104,8 @@ h2 {
   margin-top: 1rem;
 }
 
-.home-content {
-  width: 60rem;
-  background-color: white;
-  border-radius: 40px;
-  margin-inline: auto;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  order: 1px solid blue;
-
-  padding: 6rem;
-
-  font-size: 1.6rem;
-  color: black;
-  line-height: 2.8rem;
-
-  font-family: helvetica;
-  text-align: justify;
-}
-
 .home-body {
   border: 1px solid transparent;
-}
-
-.home-container {
-  font-size: 1.8rem;
-  color: rgb(234, 62, 0);
 }
 
 .intro-name {
@@ -100,12 +113,67 @@ h2 {
 }
 
 @media only screen and (max-width: 660px) {
-  .home-content {
-    width: auto;
+  .content {
     border-radius: 0;
-    margin-top: 0;
-    order-top: 1px dotted #b7542d;
-    padding-top: 4rem;
     margin-bottom: 0rem;
+    margin-top: 0;
+    width: auto;
   }
+}
+
+@media only screen and (max-width: 530px) {
+  .inner-content {
+    width: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .video {
+    width: auto;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .inner-content {
+    width: auto;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .content {
+    text-align: left;
+  }
+
+  .content img {
+    float: none;
+    display: block;
+    margin: 0;
+    color: #b7542d;
+    border: 8px double #b7542d;
+    /* border: 4px double rgb(255, 230, 89); */
+
+    border-radius: 30px;
+
+    margin-inline: auto;
+    background-color: white;
+
+    width: 10rem;
+    margin-bottom: 3rem;
+  }
+
+  /* .image-background {
+    width: 16rem;
+    height: 18rem;
+    margin-inline: auto;
+    background-color: rgb(255, 230, 89);
+
+    display: grid;
+    place-items: center;
+    margin-bottom: 4rem;
+    border-radius: 34% 64% 77% 26%/ 73% 54% 45% 19%;
+  } */
 }
