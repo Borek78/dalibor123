@@ -1,9 +1,34 @@
+.journey-page a {
+  border-bottom: 3px dotted #f06c37;
+}
+
+.journey-page a:hover {
+  border-bottom: 3px dashed orangered;
+}
+
+.journey-page ul {
+  margin-bottom: 2rem;
+}
+
+.journey-page ul li a:hover {
+  border-bottom: 3px dashed orangered;
+}
+
+.journey-page ul li a {
+  border-bottom: 2px dotted #f06c37;
+  width: fit-content;
+  padding-bottom: 0;
+
+  height: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
 .journey-page h2 {
   margin: 0;
   width: fit-content;
 
   position: relative;
-  left: 1.5rem;
+  left: 2rem;
 }
 
 .journey-page .red-box {

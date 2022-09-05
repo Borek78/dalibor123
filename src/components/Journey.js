@@ -15,77 +15,89 @@ const Journey = () => {
       <div className="content">
         <div className="inner-content">
           <div className="journey-page">
-            <p>
-              This page lists my projects that I have created. My first projects
-              are at the bottom. The latest are at the top. It will hopefully
-              show you my coding journey.
-            </p>
             <div className="red-box"> </div>
             <h2>HOW IT STARTED </h2>
             <p>
-              I am a Buddhist enthusiast. At the beginning of my journey, I
-              created a few websites for my Buddhist activities.
+              I am a Buddhist enthusiast. At the beginning, I created a few
+              websites for my Buddhist activities.
             </p>
+            <ul>
+              <li>
+                <a href="http://www.dharmazdarma.cz">Dharmazdarma.cz</a>
+              </li>
+              <li>Pandita.cz (first version) - it is not live</li>
+              <li>
+                <a href="d">How to create Pandita</a>
+              </li>
+              <li>
+                <a href="http://www.pandita.cz">Pandita.cz (second version)</a>{" "}
+              </li>
+            </ul>
+
             <p>
-              In 2015 I created this simple website for my Buddhist publishing
-              project Dharmazdarma.cz. In 2020 I created the first website for
-              my new Buddhist project - Pandita.cz. I made it with Wordpress and
-              that website in not live anymore.
+              <span>Dharmazdarma.cz </span>is a simple website that I have
+              created in 2015 for my Buddhist publishing project.
             </p>
-            <a className="button-projects" href="d">
-              DHARMAZDAMA
-            </a>
+
             <p>
-              I also needed a blog. But I did not like Wordpress and I decided
-              to use Jekyll – a popular static site generator.
+              <span>Pandita.cz.</span> was a website I created for my second
+              Buddhist project. I made it with Wordpress. However, later I
+              replaced it with a different version and so it is not live
+              anymore.
             </p>
-            <a className="button-projects" href="d">
-              HOW TO CREATE PANDITA
-            </a>
+
             <p>
-              Later I created a new version of my Pandita.cz website. But I did
-              not want to use Jekyll because the installation (all the Ruby
-              Gems) can be tricky and the build time could be just too long for
-              bigger websites. Eventually I decided to use HUGO – the fastest
-              static site generator.
+              <span>How to create Pandita</span> is a blog that I created for my
+              Pandita project. I used <a href="d">Jekyll</a> for this project.
+              Jekyll is a popular static site generator.
             </p>
-            <a className="button-projects" href="d">
-              PANDITA CZ
-            </a>
+
             <p>
-              At this point I realized I like coding and I started to think
-              about making a living off it.
+              <span>Pandita.cz (second version)</span> is, as you can imagine,
+              the second version of my Pandita.cz website. I used another static
+              site generator for this project - <a href="d">Hugo</a>. I did not
+              want to use Jekyll for this project because the Jekyll
+              installation (all the Ruby Gems) can be tricky and the build time
+              can be very long for larger websites.
             </p>
+
             <div className="red-box"> </div>
             <h2>LEARNING JAVASCRIPT </h2>
             <p>
-              I tried some tutorials on Javascript but I did not like it.
-              Instead, my fouvourite method of learning was to follow other
-              people creating a project.
+              My favourite method of learning was to follow other people
+              creating a project. I worked with these two projects:
+            </p>
+            <ul>
+              <li>
+                <a href="http://www.dharmazdarma.cz">Rock Paper Scissors</a>
+              </li>
+              <li>
+                <a href="http://www.dharmazdarma.cz">Virtual Keyboard</a>
+              </li>
+            </ul>
+            <p>
+              <span>Rock Paper Scissors</span> is a Javascript tutorial that is
+              available on{" "}
+              <a href="https://www.youtube.com/watch?v=qWPtKtYEsN4&t=1s">
+                Dev Ed´s YouTube channel.
+              </a>{" "}
+              It was the first project that I used for my learning. I was coding
+              along and used resources like{" "}
+              <a href="https://www.w3schools.com/">W3schools</a> to reasearch
+              the syntax. When I was finished with it, I created (copied) the
+              project again, and again … until I understood each line of the
+              code. A that became my method of learning.
             </p>
             <p>
-              The first project that I created (copied) was the paper rock
-              scissors game by Dev Ed. PAPER SCISSORS ROCK I was coding along
-              and used resources like W3schools to reasearch the syntax that I
-              did not know. When I was finished with it, I created (copied) the
-              project again, and again … until I thoroughly understood
-              everything. A that became my method of learning.
-            </p>
-            <p>
-              The second project that I used for my JS learning was the Virtual
-              Keyboard created by DOM.
-            </p>
-
-            <a className="button-projects" href="d">
-              VIRTUAL KEYBOARD
-            </a>
-            <p>
-              It is a very difficult project and again, it took my more than a
-              month to finish it. There were a few chalanging concept that I had
-              to grasp: the keyword THIS, document fragment, and functions as
-              object property. The good part was that I have learned something
-              about Object Oriented Programming (OOP). At this piont I felt
-              confident with Javascript and decided to learn React.
+              <span>Virtual Keyboard</span> is a Javascript tutorial that is
+              available on{" "}
+              <a href="https://www.youtube.com/watch?v=N3cq0BHDMOY">
+                dcode YouTube channel.
+              </a>{" "}
+              It is a difficult project but it introduced me to a few chalenging
+              concepts: the keyword THIS, document fragment, functions as object
+              property and Object Oriented Programming (OOP). At this piont I
+              felt confident with Javascript and I decided to learn React.
             </p>
             <div className="red-box"> </div>
             <h2>LEARNING REACT </h2>
