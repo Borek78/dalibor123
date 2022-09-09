@@ -1,3 +1,7 @@
+.journey-page .video {
+  margin-bottom: 5rem;
+}
+
 .journey-page a {
   border-bottom: 3px dotted #f06c37;
 }
@@ -64,11 +68,9 @@
 .journey-page a.button-projects {
   text-decoration: none;
   display: block;
-
   border: 2px solid #b7542d;
   border-radius: 10px;
   color: #b7542d;
-
   font-family: garamond;
   font-weight: bold;
   text-align: center;
@@ -81,4 +83,10 @@
   margin-bottom: 3rem;
 
   transition: font-size 1s, border-width 1s, padding 1s;
+}
+
+@media only screen and (max-width: 340px) {
+  .journey-page ul {
+    padding-inline-start: 2rem;
+  }
 }

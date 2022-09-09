@@ -20,7 +20,7 @@ const Button = () => {
   };
 
   return (
-    <a href="https://www.pandita.cz/">
+    <a href="https://fruits-and-vegetables.netlify.app/">
       <div
         onMouseEnter={onMouse}
         onMouseLeave={outMouse}

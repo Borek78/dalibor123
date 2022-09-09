@@ -2,6 +2,12 @@
   margin-left: 0;
   margin-right: 0;
   justify-self: right;
+
+  fill: white;
+}
+
+.x-svg:hover {
+  fill: #ffb0a2;
 }
 
 .menu {
@@ -9,6 +15,12 @@
   margin-left: 0px;
   margin-right: 0px;
   justify-self: right;
+
+  fill: white;
+}
+
+.menu:hover {
+  fill: #ffb0a2;
 }
 
 .facebook:hover {

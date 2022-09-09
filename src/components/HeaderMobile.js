@@ -3,6 +3,7 @@ import MenuSvg from "./svg/Menu";
 import XSvg from "./svg/X";
 import { useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
+import { eventWrapper } from "@testing-library/user-event/dist/utils";
 
 const HeaderMobile = () => {
   const location = useLocation();
@@ -47,6 +48,52 @@ const HeaderMobile = () => {
     });
   });
 
+  //Inteligent Navbar
+  const menu = document.querySelector(".menu");
+  const x = document.querySelector(".x-svg");
+  const header_mobile_links = document.querySelector(".header-mobile-links");
+  const header_mobile_wrapper = document.querySelector(
+    ".header-mobile-wrapper"
+  );
+
+  let scroll_change = 0;
+  let acumulated_change = 0;
+  let prevScrollPos = window.pageYOffset;
+  console.log(prevScrollPos);
+
+  window.onscroll = function () {
+    let currentScrollPos = window.pageYOffset;
+    scroll_change = currentScrollPos - prevScrollPos;
+
+    //changing acumulated_change
+    if (scroll_change < 0) {
+      acumulated_change = acumulated_change + scroll_change;
+    } else {
+      acumulated_change = 0;
+    }
+
+    //functionality
+    if (acumulated_change < -250) {
+      header_mobile_wrapper.classList.remove("hide-navbar");
+    }
+
+    if (scroll_change > 0 && currentScrollPos > 200) {
+      header_mobile_wrapper.classList.add("hide-navbar");
+      header_mobile_links.classList.remove("show");
+
+      if (x) {
+        x.classList.add("display-none");
+      }
+      menu.classList.remove("display-none");
+    }
+
+    if (currentScrollPos < 100) {
+      header_mobile_wrapper.classList.remove("hide-navbar");
+    }
+
+    prevScrollPos = currentScrollPos;
+  };
+
   return (
     <div className="header-mobile-wrapper">
       <div className="header-mobile-container">
@@ -60,12 +107,16 @@ const HeaderMobile = () => {
 
         <Link to="/">
           <div className="second">
-            <div className="home-mobile-link"> Home </div>
+            <div className="link-wrapper">
+              <div className="home-mobile-link"> Home </div>
+            </div>
           </div>
         </Link>
         <Link to="/Journey">
           <div className="third">
-            <div className="journey-mobile-link"> Journey</div>
+            <div className="link-wrapper">
+              <div className="journey-mobile-link"> Journey</div>
+            </div>
           </div>
         </Link>
       </div>

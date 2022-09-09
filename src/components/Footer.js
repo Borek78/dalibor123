@@ -8,9 +8,16 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="icons">
-        <FacebookSvg />
-        <GitHubSvg />
-        <LinkedInSvg />
+        <a href="https://www.facebook.com/robilad.kilvap">
+          <FacebookSvg />
+        </a>
+
+        <a href="https://github.com/Borek78">
+          <GitHubSvg />
+        </a>
+        <a href="https://www.linkedin.com/in/dalibor-pavlik-973046240/">
+          <LinkedInSvg />
+        </a>
       </div>
     </div>
   );

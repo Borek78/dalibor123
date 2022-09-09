@@ -1,3 +1,20 @@
+<p>While I was creating it, I have : </p>
+            <ul>
+              <li>
+                learned to create custom hooks. It enabled me to place the logic
+                of the address component and the component(JSX) itself into two
+                different files.
+              </li>
+              <li>
+                faced the challange of storing the state of the App into local
+                storage: retrieving the data from local storage and using
+                useState hook to store it was challenging. To acomplish this
+                task, I had to dive deeper into how components are rendered and
+                I also had to learn more about the useState and useEffect hooks.
+              </li>
+            </ul>
+
+
 const dispatch = useDispatch();
 const state = useSelector((state) => state);
 
