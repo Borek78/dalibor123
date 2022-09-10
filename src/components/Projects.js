@@ -1,4 +1,4 @@
-import "./Journey.css";
+import "./Projects.css";
 import HeaderDesktop from "./HeaderDesktop";
 import HeaderMobile from "./HeaderMobile";
 import Footer from "./Footer";
@@ -109,22 +109,15 @@ const Journey = () => {
                   Todo Application
                 </a>
               </li>
-              <li>
-                <a href="http://www.dharmazdarma.cz">
-                  Contact Manager - original project
-                </a>
-              </li>
 
               <li>
                 <a href="http://www.dharmazdarma.cz">
                   Redux for beginners to advanced
                 </a>
               </li>
-              <p></p>
+
               <li>
-                <a href="http://www.dharmazdarma.cz">
-                  Contact Manager - my version
-                </a>
+                <a href="http://www.dharmazdarma.cz">Contact Manager</a>
               </li>
             </ul>
             <p>
@@ -146,14 +139,13 @@ const Journey = () => {
               was the passing of properties and data between components.
             </p>
             <p>
-              I noticed a few shortcomings in the original code and I decided to
-              remove them. In the video below I talk about how I have improved
-              the original project.
+              The project uses JSON server which is usually used for local
+              development only. To place the JSON server online, I have used
+              <a href="https://www.w3schools.com/">TYPICODE</a> service.
+              Unfrortunately the service has only limited functionality – it
+              possible to add new contacts but it is not possible to delete them
+              or update them. Locally everything works perfectly well.
             </p>
-            <div className="video">
-              <YouTubeEmbed embedId="CoxhNFlGOVg" />
-            </div>
-            <p></p>
             <p>
               <span>Redux for beginners to advanced</span> is nothing but a
               thorough introduction to Redux and Redux Toolkit. I used it as a
@@ -183,9 +175,9 @@ const Journey = () => {
               therefore, I decided to create an e-shop.
             </p>
             <p>
-              I have restyled the Redux tutorial page and thus created the first
-              (products) page of the e-shop. The rest of the e-shop is my work
-              only.
+              I have restyled the Redux for beginners to advanced tutorial and
+              thus created the first (products) page of the e-shop. The rest of
+              the e-shop is my work only.
             </p>
             <p>
               <span>Dalibor´s - my porfolio page</span> is the last React

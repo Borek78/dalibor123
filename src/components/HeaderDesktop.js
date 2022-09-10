@@ -18,7 +18,7 @@ const HeaderDesktop = () => {
       journeyLink.classList.remove("active-page");
     }
 
-    if (location.pathname === "/Journey") {
+    if (location.pathname === "/Projects") {
       const homeLink = document.querySelector(".home");
       const journeyLink = document.querySelector(".journey");
 
@@ -44,7 +44,7 @@ const HeaderDesktop = () => {
         </div>
         <div>
           <div className="journey">
-            <Link to="/Journey">Journey </Link>
+            <Link to="/Projects">Projects </Link>
           </div>
         </div>
       </div>

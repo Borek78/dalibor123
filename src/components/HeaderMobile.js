@@ -18,7 +18,7 @@ const HeaderMobile = () => {
       journeyMobileLink.classList.remove("active-page");
     }
 
-    if (location.pathname === "/Journey") {
+    if (location.pathname === "/Projects") {
       const homeMobileLink = document.querySelector(".home-mobile-link");
       const journeyMobileLink = document.querySelector(".journey-mobile-link");
 
@@ -49,19 +49,18 @@ const HeaderMobile = () => {
   });
 
   //Inteligent Navbar
-  const menu = document.querySelector(".menu");
-  const x = document.querySelector(".x-svg");
-  const header_mobile_links = document.querySelector(".header-mobile-links");
-  const header_mobile_wrapper = document.querySelector(
-    ".header-mobile-wrapper"
-  );
-
   let scroll_change = 0;
   let acumulated_change = 0;
   let prevScrollPos = window.pageYOffset;
-  console.log(prevScrollPos);
 
   window.onscroll = function () {
+    const menu = document.querySelector(".menu");
+    const x = document.querySelector(".x-svg");
+    const header_mobile_links = document.querySelector(".header-mobile-links");
+    const header_mobile_wrapper = document.querySelector(
+      ".header-mobile-wrapper"
+    );
+
     let currentScrollPos = window.pageYOffset;
     scroll_change = currentScrollPos - prevScrollPos;
 
@@ -112,10 +111,10 @@ const HeaderMobile = () => {
             </div>
           </div>
         </Link>
-        <Link to="/Journey">
+        <Link to="/Projects">
           <div className="third">
             <div className="link-wrapper">
-              <div className="journey-mobile-link"> Journey</div>
+              <div className="journey-mobile-link">Projects</div>
             </div>
           </div>
         </Link>
