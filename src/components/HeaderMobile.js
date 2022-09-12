@@ -3,7 +3,6 @@ import MenuSvg from "./svg/Menu";
 import XSvg from "./svg/X";
 import { useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
-import { eventWrapper } from "@testing-library/user-event/dist/utils";
 
 const HeaderMobile = () => {
   const location = useLocation();

@@ -21,25 +21,25 @@ const Home = () => {
           </div>
 
           <p>
-            Twenty years ago there was a student of economics who was not happy
+            Twenty years ago, there was a student of economics who was not happy
             with his studies. He wanted to do something more technical. He even
-            went to visit his friend´s father and asked him questions about his
-            programming job. Eventualy life made him finish his studies in
+            went to visit his friend's father and asked him questions about his
+            programming job. Eventually, life made him finish his studies in
             economics.
           </p>
           <p>
             That student was me. My name is<span> Dalibor Pavlik </span> and I
-            am an amateur <span>React Developer. </span> Presently I am looking
+            am an amateur <span>React developer. </span> Presently, I am looking
             for my first job.
           </p>
           <div className="box">
             <h2>Flagship </h2>
           </div>
           <p>
-            During my coding journey, I created many projects. But one of them –
-            the Fruits and Vegetables e-shop – stands out. I consider it to be
-            my porfolio page flagship. I have created it to show that I am
-            capable of creating something more complex than just a blog or a
+            During my coding journey, I created many projects. But one of
+            them—the Fruits and Vegetables e-shop—stands out. I consider it to
+            be my portfolio website flagship. I have created it to show that I
+            am capable of creating something more complex than just a blog or a
             portfolio page.
           </p>
           <Button />
@@ -47,9 +47,9 @@ const Home = () => {
             <h2>Video </h2>
           </div>
           <p>
-            I think that my potentional employers might want to know more about
-            my personality. Therefore, I decided to create the following video.
-            I speak about this website.
+            I think that my potential employers might want to know more about my
+            personality. Therefore, I decided to create the following video. I
+            speak about one of the features available on this website.
           </p>
           <div className="video">
             <YouTubeEmbed embedId="CoxhNFlGOVg" />
@@ -59,31 +59,31 @@ const Home = () => {
           </div>
           <div className="about-me">
             <p>
-              <span> Availibility:</span> For many years a suffered from chronic
-              fatigue syndrom. Two years ago I started to feel better. Every
-              year my health significantly improves. However, I still prefer to
-              limit my work schedule to not more than{" "}
-              <span className="span-not-bold">15 hours a weeek.</span>
+              <span> Availability:</span> For many years, I suffered from
+              chronic fatigue syndrome. Two years ago, I started to feel better,
+              and now every year my health significantly improves. However, I
+              still prefer to limit my work schedule to not more than{" "}
+              <span className="span-not-bold">15 hours a week.</span>
             </p>
             <p>
               <span> Skills:</span> CSS, HTML, Javascript, React, Redux, Git
-              (basics), Wordpress (basics) and OOP (very light)
+              (basics), Wordpress (basics), and OOP (very light).
             </p>
             <p>
-              <span>Additional skills:</span> During my economics studies I
-              specialized in statistics and data analysis. I worked a lot with
-              regression analysis and many of the associated concepts:
-              correlation, normal distribution, ridge regression, t-statistics.
-              I should be able to refresh these skills.
+              <span>Additional skills:</span> During my studies, I specialized
+              in statistics and data analysis. I spent a lot of time working
+              with regression analysis and many of its related concepts:
+              correlation, normal distribution, ridge regression, and
+              t-statistics. I should be able to refresh these skills.
             </p>
             <p>
               <span>Location:</span> Pardubice, Czech Republic (Prague is the
-              capital)
+              capital).
             </p>
             <p>
-              <span>English:</span> I am fluent in English. For 18 months I
-              lived in Ipswich, United Kingdom. In addition to that, for many
-              years I lived in english-speaking communities all over the world.
+              <span>English:</span> I am fluent in English. I lived in the
+              United Kingdom for 18 months. In addition to that, for many years,
+              I lived in English-speaking communities all over the world.
             </p>
           </div>
         </div>
