@@ -6,7 +6,6 @@ import Footer from "./Footer";
 import Button from "./Button";
 import Borek from "../images/Borek3.png";
 import YouTubeEmbed from "../help/YouTubeEmbed";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -22,9 +21,9 @@ const Home = () => {
 
           <p>
             Twenty years ago, there was a student of economics who was not happy
-            with his studies. He wanted to do something more technical. He even
-            went to visit his friend's father and asked him questions about his
-            programming job. Eventually, life made him finish his studies in
+            with his studies. He wanted to study something more technical. He
+            even went to visit his friend's father and asked him questions about
+            his programming job. Eventually, life made him finish his studies in
             economics.
           </p>
           <p>
@@ -52,7 +51,7 @@ const Home = () => {
             speak about one of the features available on this website.
           </p>
           <div className="video">
-            <YouTubeEmbed embedId="CoxhNFlGOVg" />
+            <YouTubeEmbed embedId="BpYbZYKLzxY" />
           </div>
           <div className="box">
             <h2>More me</h2>
@@ -60,9 +59,9 @@ const Home = () => {
           <div className="about-me">
             <p>
               <span> Availability:</span> For many years, I suffered from
-              chronic fatigue syndrome. Two years ago, I started to feel better,
-              and now every year my health significantly improves. However, I
-              still prefer to limit my work schedule to not more than{" "}
+              chronic fatigue syndrome. Two years ago, I started to feel better.
+              My is health is getting better every year now. However, I still
+              prefer to limit my work schedule to not more than{" "}
               <span className="span-not-bold">15 hours a week.</span>
             </p>
             <p>
@@ -85,6 +84,11 @@ const Home = () => {
               United Kingdom for 18 months. In addition to that, for many years,
               I lived in English-speaking communities all over the world.
             </p>
+
+            <div className="box">
+              <h2>Contact</h2>
+            </div>
+            <p className="email">dalibor.pavlik@gmail.com</p>
           </div>
         </div>
       </div>

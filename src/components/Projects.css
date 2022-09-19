@@ -1,3 +1,11 @@
+.journey-page .underline {
+  text-decoration: wavy;
+  color: black;
+  font-weight: normal;
+  ext-decoration: underline;
+  border-bottom: 2px solid black;
+}
+
 .journey-page .video {
   margin-bottom: 5rem;
 }

@@ -94,7 +94,7 @@ const Journey = () => {
               </a>{" "}
               It is a difficult project, but it introduced me to a few
               challenging concepts: the keyword THIS, document fragment, and
-              Object Oriented Programming (OOP). At this piont, I felt confident
+              Object Oriented Programming (OOP). At this point, I felt confident
               with Javascript and I decided to learn React.
             </p>
             <div className="red-box"> </div>
@@ -130,7 +130,7 @@ const Journey = () => {
               very challenging to learn.
             </p>
             <p>
-              <span>Contact Manager</span> is a tutorial available on the{" "}
+              <span>Contact Manager</span> is a tutorial available on{" "}
               <a href="https://www.youtube.com/watch?v=N3cq0BHDMOY">
                 Dipesh Malvia´s
               </a>{" "}
@@ -148,11 +148,10 @@ const Journey = () => {
               I have used it to place the server online.
             </p>
             <p>
-              The online version of the App is not working very well at the
-              moment. It is possible to add new contacts, but it is not possible
-              to delete them or update them. Locally, everything works perfectly
-              well. I think I know the solution. Perhaps I will come back to it
-              later.
+              <span className="underline">Update:</span> The online version of
+              the App is not working very well at the moment. When I deployed
+              it, everything worked perfectly well. The problem is Typicode,
+              which is not a very reliable service.
             </p>
             <p>
               <span>Redux tutorial – Beginners to Advanced</span> is nothing but
@@ -187,14 +186,14 @@ const Journey = () => {
               Therefore, I decided to create an e-shop.
             </p>
             <p>
-              I have restyled the Redux for beginners to advanced tutorial and
-              thus created the first (products) page of the e-shop. The rest of
-              the e-shop is my work only.
+              The Redux for beginners to advanced tutorial is a one page
+              project. I have restyled it and thus created the first (products)
+              page of the e-shop. The rest of the e-shop is my work only.
             </p>
             <p>
-              The most difficult part was to use local storage to save the state
-              of the app to local storage. To achieve that, I had to dive much
-              deeper into react hooks and component rendering.
+              The most difficult part was to save the state of the app to local
+              storage. To achieve that, I had to dive much deeper into react
+              hooks (useState, useEffect) and component rendering.
             </p>
             <p>
               <span>Dalibor´s - my porfolio page</span> is the last React

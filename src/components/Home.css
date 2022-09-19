@@ -1,3 +1,16 @@
+.email {
+  font-size: 2rem;
+
+  color: rgb(59, 59, 59) !important;
+  margin-bottom: 6rem !important;
+  margin-top: 2rem !important;
+}
+
+.tr {
+  color: transparent !important;
+  font-size: 40px;
+}
+
 /*Main elements of the page*/
 .container {
   font-size: 1.8rem;
@@ -138,6 +151,9 @@ div.about-me p {
     width: auto;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+  }
+  .email {
+    font-size: 1.8rem;
   }
 }
 

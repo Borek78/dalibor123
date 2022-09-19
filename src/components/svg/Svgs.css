@@ -46,3 +46,13 @@ svg {
 svg:hover {
   fill: orangered;
 }
+
+@media only screen and (max-width: 660px) {
+  svg {
+    fill: white;
+  }
+
+  svg:hover {
+    fill: rgb(254, 170, 139);
+  }
+}
