@@ -1,0 +1,74 @@
+/*bile pozadi*/
+.header-desktop-container {
+  background-color: white;
+
+  width: 100%;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  font-family: futura;
+  color: #b7542d;
+}
+
+.header-desktop-container .header-content {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 10rem 1fr 8rem 10rem 3rem;
+  grid-template-rows: 5rem;
+  margin-inline: auto;
+  width: 52rem;
+  align-items: center;
+  font-weight: bold;
+  order: 1px solid red
+
+}
+
+.header-desktop-container .header-content .dalibor {
+  font-family: garamond;
+  font-weight: 900;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  order: 1px solid green;
+}
+
+/*Links*/
+.header-desktop-container .header-content .home {
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  order: 1px solid blue;
+  width: fit-content;
+}
+
+.header-desktop-container .header-content .learning {
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  order: 1px solid blue;
+  width: fit-content;
+}
+
+.header-desktop-container .header-content .jobs {
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  order: 1px solid blue;
+  width: fit-content;
+}
+
+.header-desktop-container .header-content a {
+  text-decoration: none;
+  color: #b7542d;
+  font-family: futura;
+  font-size: 1.5rem;
+}
+
+.header-desktop-container .hover-link a:hover {
+  color: orangered !important;
+}
+
+.header-desktop-container .active-page {
+  border-bottom: 3px solid #b7542d !important;
+}
+
+@media only screen and (max-width: 660px) {
+  .header-desktop-container {
+    display: none;
+  }
+}

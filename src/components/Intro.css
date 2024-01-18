@@ -1,0 +1,7 @@
+.intro-container span {
+  display: none;
+}
+
+.intro-container .display-inline {
+  display: inline;
+}

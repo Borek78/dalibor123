@@ -1,0 +1,58 @@
+.x-svg {
+  margin-left: 0;
+  margin-right: 0;
+  justify-self: right;
+
+  fill: white;
+}
+
+.x-svg:hover {
+  fill: #ffb0a2;
+}
+
+.menu {
+  order: 1px solid blue;
+  margin-left: 0px;
+  margin-right: 0px;
+  justify-self: right;
+
+  fill: white;
+}
+
+.menu:hover {
+  fill: #ffb0a2;
+}
+
+.facebook:hover {
+  transition: fill 0.5s;
+}
+
+.github:hover {
+  transition: fill 0.5s;
+}
+
+.linkedin:hover {
+  transition: fill 0.5s;
+}
+
+svg {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 3rem;
+  fill: #b7542d;
+  cursor: pointer;
+}
+
+svg:hover {
+  fill: orangered;
+}
+
+@media only screen and (max-width: 660px) {
+  svg {
+    fill: white;
+  }
+
+  svg:hover {
+    fill: rgb(254, 170, 139);
+  }
+}

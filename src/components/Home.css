@@ -1,0 +1,186 @@
+.email {
+  font-size: 2rem;
+
+  color: rgb(59, 59, 59) !important;
+  margin-bottom: 6rem !important;
+  margin-top: 2rem !important;
+}
+
+.tr {
+  color: transparent !important;
+  font-size: 40px;
+}
+
+/*Main elements of the page*/
+.container {
+  font-size: 1.8rem;
+}
+
+.content p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+  color: rgb(48, 48, 48);
+}
+
+.content {
+  width: 60rem;
+  background-color: white;
+  border-radius: 40px;
+  margin-inline: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  order: 1px solid blue;
+
+  font-size: 1.6rem;
+  color: black;
+  line-height: 2.8rem;
+
+  font-family: helvetica;
+  text-align: justify;
+}
+
+.inner-content {
+  order: 1px solid green;
+  width: 48rem;
+  margin-inline: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/*Page details*/
+.content span.span-not-bold {
+  /* color: rgb(91, 91, 91); */
+  font-weight: normal;
+}
+
+.content a:hover {
+  border-bottom: 3px dashed chocolate;
+}
+
+.content a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px dashed rgb(3, 171, 3);
+  padding-bottom: 2px;
+}
+
+.video {
+  width: 30rem;
+  margin-inline: auto;
+  margin-top: 3rem;
+}
+
+.about-me {
+  margin-top: 1.5rem;
+}
+
+div.about-me p {
+  margin-bottom: 0.5rem;
+}
+
+.content .box {
+  width: 1rem;
+  height: 1.8rem;
+  background-color: orangered;
+  margin-bottom: 0.5rem;
+  margin-top: 5rem;
+}
+
+.content h2 {
+  color: #b7542d;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-top: 4rem;
+
+  position: relative;
+  left: 2rem;
+  top: -0.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+  width: 10rem;
+}
+
+.content p span {
+  color: #b7542d;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.content img {
+  width: 8rem;
+  border-radius: 10px;
+  float: right;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.home-body {
+  border: 1px solid transparent;
+}
+
+.intro-name {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 660px) {
+  .content {
+    border-radius: 0;
+    margin-bottom: 0rem;
+    margin-top: 0;
+    width: auto;
+  }
+
+  .container {
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .inner-content {
+    width: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .video {
+    width: auto;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .email {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .inner-content {
+    width: auto;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .content {
+    text-align: left;
+  }
+
+  .content img {
+    float: none;
+    display: block;
+    margin: 0;
+    color: #b7542d;
+    border: 8px double #b7542d;
+
+    border-radius: 30px;
+
+    margin-inline: auto;
+    background-color: white;
+
+    width: 10rem;
+    margin-bottom: 3rem;
+  }
+}
