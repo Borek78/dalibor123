@@ -188,12 +188,12 @@ const Learning = () => {
               Contact Manager
             </a>{" "}
             project. The code is available in my{" "}
-            <a href="https://contact-manager-react-dp-version.netlify.app/">
-              Contact Manager
+            <a href="https://github.com/Borek78/ContactsManagerAPI---asp.net">
+              ContactManagerAPI---asp.net
             </a>{" "}
             Github repo. It is only a very basic project. I have also watched
             and studied Patric God´s video on{" "}
-            <a href="https://contact-manager-react-dp-version.netlify.app/">
+            <a href="https://www.youtube.com/watch?v=V0UF4vEMlhQ">
               Database Relationships(1:1,1:n,n:n)
             </a>{" "}
           </div>
