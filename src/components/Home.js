@@ -1,11 +1,8 @@
 import "./Home.css";
 import HeaderDesktop from "./HeaderDesktop";
 import HeaderMobile from "./HeaderMobile";
-
 import Footer from "./Footer";
-import Button from "./Button";
 import Borek from "../images/Borek3.png";
-import YouTubeEmbed from "../help/YouTubeEmbed";
 
 const Home = () => {
   return (
@@ -19,9 +16,8 @@ const Home = () => {
             <img className="photo-box" src={Borek} alt="imgURL"></img>
           </div>
           <p>
-            Ny name is Dalibor and I am React and C# .NET (very basic)
-            developer. I am based in Pardubice, the Czech Republic. Presently I
-            am looking for a job.
+            Ny name is Dalibor (nickname is Borek) and I am React and C# .NET
+            (very basic) developer. I am based in Pardubice, the Czech Republic.
           </p>
           <div className="box">
             <h2>Skills </h2>
